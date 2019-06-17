@@ -1,0 +1,276 @@
+/* ServerlessDays logo colors: 
+#0BB9A7
+#322835
+font-family: 'Roboto Mono', monospace;
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,400,700|Roboto:100,300,400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+/* General styling */
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+}
+
+main {
+  min-height: 50vh;
+  flex: 1 0 auto;
+  padding-bottom: 10vh;
+  margin-top: 10vh;
+}
+
+main h2 {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+main h3 {
+  margin-bottom: 5vh;
+}
+
+main ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+main ul li:before {
+  font-family: 'Material Icons';
+  content: '\e86f';
+  color: #D43A4A;
+  display: inline;
+  margin-right: 10px;
+}
+
+.pull-left {
+  margin-left: 0 !important;
+}
+
+button {
+  margin: 10px;
+}
+
+nav {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.no-bg:hover {
+  background: transparent;
+}
+
+a {
+  color: #D43A4A;
+}
+
+.btn-red {
+  background-color: #D43A4A;
+  color: #F5F5F5;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.text-medium {
+  font-size: 25px;
+}
+
+.highlighted-text {
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.trans {
+  transition: all 0.5s ease-in-out 0 !important;
+}
+
+.container h5 {
+  margin-top: 3vh;
+}
+
+.schedule .divider {
+  margin-bottom: 20px;
+}
+
+.schedule h6+h4 {
+  margin-top: 0;
+}
+
+.speaker-pics img {
+  max-width: 200px;
+}
+
+/* spacing */
+
+.sponsors .divider {
+  margin: 10vh 0 5vh 0 !important;
+}
+
+.sponsors a img {
+  padding: 0 30px;
+}
+
+.titleHR {
+  height: 1px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+  width: 40%;
+  display:inline-block;
+  margin-bottom: 5vh;
+}
+
+.space {
+  margin-top: 20vh;
+}
+
+.small-space {
+  margin-top: 10vh;
+}
+
+.space-foot {
+  margin-top: 6vh;
+}
+
+.top-marg {
+  margin-top: 5vh;
+}
+
+/* text styles */
+
+@media only screen and (max-width: 600px) {
+  .shrinkme {
+    font-size: 12vw;
+  }
+  .schedule h4 {
+    font-size: 1.6em;
+  }
+  .schedule h6 {
+    font-size: 1em;
+  }
+  .speaker-pics img {
+    max-width: 50px;
+  }
+  .speaker-pics h5 {
+    font-size: 1.2em;
+  }
+}
+
+.purp-text {
+  color: #322835 !important;
+  font-weight: 700;
+  transition: color 0.5s ease-in-out 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.company {
+  color: #D43A4A;
+  font-weight: bold;
+  margin-top: 0 !important;
+}
+
+/* image styles */
+
+.grad-bg {
+  background: linear-gradient(to bottom right, #D43A4A, #322835);
+}
+
+.not-wide {
+  max-width: 50% !important;
+}
+
+.full-img {
+  width: 100%;
+}
+
+.map-div {
+  margin-bottom: -100px;
+}
+
+/* Navbar styling */
+.tickets-btn {
+  background: #fff;
+  border-radius: 50px;
+  padding: 0 30px;
+  margin-top: 10px;
+  height: 75%;
+}
+
+.tickets-txt {
+  vertical-align: middle !important;
+  color: #322835;
+  font-weight: 700;
+  line-height: 47px;    /* TODO: test this on different screens! */
+}
+
+/* Modal */
+
+@media only screen and (max-width: 600px) {
+  .modal {
+    width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .modal {
+    max-width: 50vw;
+  }
+}
+
+.modal-trigger {
+  cursor: pointer;
+}
+
+.modal p {
+  margin-left: 13px;
+}
+
+/* Header styling */
+.header {
+  min-height: 50vh;
+  text-align: center;
+  color: #fff;
+  margin-top: -70px;
+  padding: 5vh;
+}
+
+.header img {
+  padding-top: 70px;
+}
+
+.header h4 {
+  margin-top: -1vh;
+}
+
+.header p {
+  font-weight: 100;
+}
+
+.header button {
+  margin-top: 4vh;
+}
+
+/* Footer styling */
+footer {
+  background: linear-gradient(to bottom right, #D43A4A, #322835) !important;
+}
+
+.copyrights {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
