@@ -75,6 +75,11 @@ a {
   font-size: 25px;
 }
 
+.btn-red:hover {
+  background-color: black;
+  color: #F5F5F5;
+}
+
 .text-medium {
   font-size: 25px;
 }
