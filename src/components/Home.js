@@ -9,7 +9,7 @@ class Home extends Component {
   render () {
     return (
       <div>
-        <div className='container' id='top'>aws
+        <div className='container' id='top'>
           <ScrollableAnchor id={'home'}>
             <div className='center-align'>
               <h2 className='center-align shrinkme'>ServerlessDays in İstanbul</h2>
