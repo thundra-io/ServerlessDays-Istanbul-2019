@@ -80,6 +80,11 @@ a {
   color: #F5F5F5;
 }
 
+.btn-red:focus {
+  background-color: black;
+  color: #F5F5F5;
+}
+
 .text-medium {
   font-size: 25px;
 }
