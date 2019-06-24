@@ -23,7 +23,7 @@ class Sponsors extends Component {
           <p>As a community event, ServerlessDays could not exist without sponsors. We are currently offering sponsorship packages for the İstanbul ServerlessDays event. Together we can create a unique and meaningful experience for our attendees.</p>
           <p>We’d love to have you as a sponsor! To become a sponsor or learn more, please contact <a href='mailto:istanbul@serverlessdays.io'>istanbul@serverlessdays.io</a></p>
           <div className='center-align'>
-            <a className='btn-large btn-red top-marg' href={'./media/ServerlessDays İstanbul 2019 Sponsorship Prospectus.pdf'} target='_blank' rel='noopener noreferrer' download>Sponsor Prospectus</a>
+            <a className='btn-large btn-red top-marg' href={'./media/ServerlessDays Istanbul 2019 Sponsorship Prospectus.pdf'} target='_blank' rel='noopener noreferrer' download>Sponsor Prospectus</a>
           </div>
           <div className='space-foot' />
         </div>
