@@ -33,7 +33,6 @@ function Foot () {
         <div className='small-space hide-on-med-and-up' />
         <h5 className='white-text left-align normal'>ServerlessDays İstanbul</h5>
         <p className='grey-text text-lighten-4 left-align'>October 03, 2019 <br /> Kadir Has University at <br /> Cibali Mah. Hisaraltı Cad. No:17 <br /> Fatih, İstanbul / Turkey, 34083</p>
-        <p className='grey-text text-lighten-4 left-align'>ServerlessDays İstanbul is presented by <a href='https://www.thundra.io/' target='_blank' rel='noopener noreferrer' className='grey-text text-lighten-4 highlighted-text'>Thundra</a>.</p>
       </Footer>
     </footer>
   );
