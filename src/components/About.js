@@ -78,12 +78,40 @@ class About extends Component {
         </div>
         <div className='center-align' id='#organizers'>
           <h2>Organizers</h2>
-          <Row className='valign-wrapper'>
-            <Col s={2} l={4} />
-            <Col s={4} l={2}><a href='https://www.thundra.io/' target='_blank' rel='noopener noreferrer'><img src={'./media/thundra.svg'} alt={'Thundra logo'} className='responsive-img' /></a></Col>
-            <Col s={2} l={4} />
+          <Row className='center-align'>
+            <Col s={10} l={1}></Col>
+            <Col s={10} l={2} id='azmi'>
+                <h5 className='top-marg'>Azmi<br/>MENGÜ</h5>
+              <h6 className='company'>Getir</h6>
+              <img src={'./media/organizers/azmi.jpg'} alt={'Azmi MENGÜ'} className='responsive-img circle' />
+              <a href="https://twitter.com/azmimengu" target="_blank" rel="noopener noreferrer">@azmimengu <i className="fab fa-twitter light-blue-text text-darken-1"/></a>
+            </Col>
+            <Col s={10} l={2} id='emrah'>
+              <h5 className='top-marg'>Emrah<br/>ŞAMDAN</h5>
+              <h6 className='company'>Thundra</h6>
+              <img src={'./media/organizers/emrah.jpg'} alt={'Emrah ŞAMDAN'} className='responsive-img circle' />
+              <a href="https://twitter.com/emrahsamdan" target="_blank" rel="noopener noreferrer">@emrahsamdan <i className="fab fa-twitter light-blue-text text-darken-1"/></a>
+            </Col>
+            <Col s={10} l={2} id='iren'>
+              <h5 className='top-marg'>İren<br/>SALTALI</h5>
+              <h6 className='company'>image4io</h6>
+              <img src={'./media/organizers/iren.jpg'} alt={'İren SALTALI'} className='responsive-img circle' />
+              <a href="https://twitter.com/irensaltali" target="_blank" rel="noopener noreferrer">@irensaltali <i className="fab fa-twitter light-blue-text text-darken-1"/></a>
+            </Col>
+            <Col s={10} l={2} id='serhat'>
+              <h5 className='top-marg'>Serhat<br/>CAN</h5>
+              <h6 className='company'>Atlassian</h6>
+              <img src={'./media/organizers/serhat.jpg'} alt={'Serhat can'} className='responsive-img circle' />
+              <a href="https://twitter.com/srhtcn" target="_blank" rel="noopener noreferrer">@srhtcn <i className="fab fa-twitter light-blue-text text-darken-1"/></a>
+            </Col>
+            <Col s={10} l={2} id='serkan'>
+              <h5 className='top-marg'>Serkan<br/>ÖZAL</h5>
+              <h6 className='company'>Thundra</h6>
+              <img src={'./media/organizers/serkan.jpg'} alt={'Serkan ÖZAL'} className='responsive-img circle' />
+              <a href="https://twitter.com/serkan_ozal" target="_blank" rel="noopener noreferrer">@serkan_ozal <i className="fab fa-twitter light-blue-text text-darken-1"/></a>
+            </Col>
+            <Col s={10} l={1}></Col>
           </Row>
-          <p>ServerlessDays İstanbul is presented in cooperation with <a href='https://www.thundra.io/' target='_blank' rel='noopener noreferrer'>Thundra</a>.</p>
         </div>
       </div>
     );
