@@ -16,7 +16,7 @@ function Foot () {
           <div>
             <div className='space-foot hide-on-med-and-down' />
             <ul className='left-align'>
-              {/* <li><a href='https://www.eventbrite.com/e/serverlessdays-istanbul-tickets-???' target='_blank' rel='noopener noreferrer'>Tickets</a></li> */}
+              <li><a href='https://biletino.com/ticketing/start/8131' target='_blank' rel='noopener noreferrer' className='grey-text text-lighten-3 highlighted-text'>Tickets</a></li>
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='grey-text text-lighten-3 highlighted-text' to='/about'>About</Link></Scrollchor></li>
               <li><Link className='grey-text text-lighten-3 highlighted-text' to='/location#venue'>Venue</Link></li>
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='grey-text text-lighten-3 highlighted-text' to='/speakers'>Speakers</Link></Scrollchor></li>
