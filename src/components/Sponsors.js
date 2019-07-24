@@ -30,6 +30,15 @@ class Sponsors extends Component {
           </Row>
           <div className='small-space'></div>
           <h5 className='center-align'>Bronze Sponsors</h5>
+          <div className='small-space'></div>
+          <h5 className='center-align'>Community Sponsors</h5>
+          <Row className='valign-wrapper top-marg'>
+            <Col s={12} l={4}></Col>
+            <Col s={12} l={4}>
+              <a href='https://www.meetup.com/Serverless-Turkey' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/serverlesstr.png'} alt={'Serverless Turkey Meetup'} className='responsive-img' /></a>
+             </Col>
+             <Col s={12} l={4}></Col>
+          </Row>
           <div className='divider' />
           <h3 className='center-align'>Sponsor ServerlessDays İstanbul</h3>
           <h4>Become a sponsor!</h4>
