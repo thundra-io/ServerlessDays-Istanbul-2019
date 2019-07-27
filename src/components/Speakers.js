@@ -40,7 +40,7 @@ class Speakers extends Component {
           <div className='divider' />
           <div className='space-foot' />
           <Row>
-            <Col s={12} l={12} id='daron'>
+            <Col s={12} l={12} id='kassian'>
               <h4 className='top-marg'>Mx. Kassian Perch</h4>
               <h5 className='company'>Cloudflare</h5>
             </Col>
@@ -56,7 +56,7 @@ class Speakers extends Component {
           <Row>
             <Col s={12} l={12} id='daron'>
               <h4 className='top-marg'>Daron Yondem</h4>
-              <h5 className='company'>Microsoft</h5>
+              <h5 className='company'>XOGO and Microsoft MVP</h5>
             </Col>
             <Col s={12} l={9}>
               <p>Daron Yondem is a Microsoft Regional Director and an Azure MVP. He is a regular speaker at international conferences focusing on Microservices, Serverless, and IoT. Daron currently works as a CTO in XOMNI Inc, a cloud company building PAAS offerings for retailers and XOGO where they are building a decision signage platform.</p>
@@ -82,7 +82,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12} id='mete'>
+            <Col s={12} l={12} id='eric'>
               <h4 className='top-marg'>Eric Johnson</h4>
               <h5 className='company'>AWS</h5>
             </Col>
@@ -96,7 +96,7 @@ class Speakers extends Component {
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12} id='mete'>
+            <Col s={12} l={12} id='sarjeel'>
               <h4 className='top-marg'>Syed Sarjeel Yusuf</h4>
               <h5 className='company'>Atlassian</h5>
             </Col>
@@ -105,12 +105,12 @@ class Speakers extends Component {
               <h5><a href='https://twitter.com/SarjeelY' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter light-blue-text text-darken-1"></i></a><a href='https://www.linkedin.com/in/syedsarj/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in light-blue-text text-darken-3"></i></a></h5>
             </Col>
             <Col s={12} l={3}>
-              <img src={'./media/speakers/sarjeel.jpg'} alt={'Syed Sarjeel Yusuf'} className='responsive-img circle' />
+              <img src={'./media/speakers/sarjeel.jpeg'} alt={'Syed Sarjeel Yusuf'} className='responsive-img circle' />
             </Col>
           </Row>
           <div className='divider' />
           <Row>
-            <Col s={12} l={12} id='mete'>
+            <Col s={12} l={12} id='mehmet'>
               <h4 className='top-marg'>Mehmet Taşkıner</h4>
               <h5 className='company'>Getir</h5>
             </Col>

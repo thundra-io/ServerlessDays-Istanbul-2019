@@ -70,24 +70,67 @@ class Home extends Component {
           <div className='container speaker-pics'>
             <h2 className='center-align'>Speakers</h2>
             <Row>
-              <Col s={4} l={4} className='center-align'>
+              <Col s={4} l={6} className='center-align'>
                 <Link to='/speakers#danilo'>
                   <img src={'./media/speakers/danilo.jpeg'} alt={'Danilo Poccia'} className='responsive-img circle' />
-                  <h5>Danilo Poccia</h5>
+                  <h5>Danilo<br />Poccia</h5>
                   <p>AWS</p>
                 </Link>
               </Col>
-              <Col s={4} l={4} className='center-align'>
+              <Col s={4} l={6} className='center-align'>
                 <Link to='/speakers#slobodan'>
                   <img src={'./media/speakers/slobodan.jpeg'} alt={'Slobodan Stojanović'} className='responsive-img circle' />
-                  <h5>Slobodan Stojanović</h5>
+                  <h5>Slobodan<br />Stojanović</h5>
                   <p>Cloud Horizon & Vacation Tracker</p>
                 </Link>
               </Col>
             </Row>
-            <div className='center-align'>
-              <p>More is coming ...</p>
-            </div>
+            <Row>
+              <Col s={4} l={4} className='center-align'>
+                <Link to='/speakers#kassian'>
+                  <img src={'./media/speakers/kassian.jpg'} alt={'Mx. Kassian Perch'} className='responsive-img circle' />
+                  <h5>Kassian<br />Perch</h5>
+                  <p>Cloudflare</p>
+                </Link>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <Link to='/speakers#daron'>
+                  <img src={'./media/speakers/daron.png'} alt={'Daron Yondem'} className='responsive-img circle' />
+                  <h5>Daron<br />Yondem</h5>
+                  <p>XOGO and Microsoft MVP</p>
+                </Link>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <Link to='/speakers#mete'>
+                  <img src={'./media/speakers/mete.jpg'} alt={'Mete Atamel'} className='responsive-img circle' />
+                  <h5>Mete<br />Atamel</h5>
+                  <p>Google</p>
+                </Link>
+              </Col>
+            </Row>
+            <Row> 
+              <Col s={4} l={4} className='center-align'>
+                <Link to='/speakers#eric'>
+                  <img src={'./media/speakers/eric.jpg'} alt={'Eric Johnson'} className='responsive-img circle' />
+                  <h5>Eric<br />Johnson</h5>
+                  <p>AWS</p>
+                </Link>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <Link to='/speakers#sarjeel'>
+                  <img src={'./media/speakers/sarjeel.jpeg'} alt={'Syed Sarjeel Yusuf'} className='responsive-img circle' />
+                  <h5>Syed Sarjeel<br />Yusuf</h5>
+                  <p>Atlassian</p>
+                </Link>
+              </Col>
+              <Col s={4} l={4} className='center-align'>
+                <Link to='/speakers#mehmet'>
+                  <img src={'./media/speakers/mehmet.jpg'} alt={'Mehmet Taşkıner'} className='responsive-img circle' />
+                  <h5>Mehmet<br />Taşkıner</h5>
+                  <p>Getir</p>
+                </Link>
+              </Col>
+            </Row>
             <div className='center-align'>
               <Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='btn-large btn-red top-marg' to='/speakers'>View Speakers</Link></Scrollchor>
             </div>
