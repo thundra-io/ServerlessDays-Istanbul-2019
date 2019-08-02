@@ -101,7 +101,7 @@ class Speakers extends Component {
               <h5 className='company'>Atlassian</h5>
             </Col>
             <Col s={12} l={9}>
-              <p>Syed Sarjeel Yusuf is a software engineer at Atlassian Opsgenie being a member of Infra team. He is a cloud citizen by heart. Before joining Atlassian Opsgenie, he worked in Thundra where he increased his knowledge about serverless architectures a lot. He is primarily focused on architecture and Atlassian Opsgenie with serverless architecture.</p>
+              <p>An aspiring stand-up comedian thrown into the field of serverless right after graduation, Sarjeel had been working on serverless monitoring for about a year. In 2019 he made the switch to Atlassian, but his passion still lies in serverless technology as is manifest in his articles exploring the realm of serverless from automatic monitoring to IoT in serverless and GraphQL processing Lambda functions. He is most intrigued by how serverless is reforming several domains of the software industry and is eager to see its growth.</p>
               <h5><a href='https://twitter.com/SarjeelY' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter light-blue-text text-darken-1"></i></a><a href='https://www.linkedin.com/in/syedsarj/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in light-blue-text text-darken-3"></i></a></h5>
             </Col>
             <Col s={12} l={3}>
