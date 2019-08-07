@@ -115,7 +115,7 @@ class Speakers extends Component {
               <h5 className='company'>Getir</h5>
             </Col>
             <Col s={12} l={9}>
-              <p>Mehmet Taşkıner is a DevOps engineer at Getir.</p>
+              <p>Mehmet Taskiner is DevOps Engineer at Getir. Before Getir he worked for puhutv, helped to build its infrastructure ground up. He started his career developing mobile applications, backends for that mobile applications, after experiencing development side he decided to make developers life easier.</p>
               <h5><a href='https://twitter.com/taskinermehmet' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter light-blue-text text-darken-1"></i></a><a href='https://www.linkedin.com/in/mehmettaskiner/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in light-blue-text text-darken-3"></i></a></h5>
             </Col>
             <Col s={12} l={3}>
