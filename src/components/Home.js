@@ -145,7 +145,7 @@ class Home extends Component {
           <div className='space' />
           <div className='container'>
             <h2 className='center-align'>Join us in İstanbul!</h2>
-            <p>ServerlessDays İstanbul will take place at <a href='http://khas.edu.tr/en' target='_blank' rel='noopener noreferrer'>Kadir Has University</a> in İstanbul on Friday, October 03, 2019. View the full event schedule <Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link to='/schedule'>here</Link></Scrollchor>.</p>
+            <p>ServerlessDays İstanbul will take place at <a href='http://khas.edu.tr/en' target='_blank' rel='noopener noreferrer'>Kadir Has University</a> in İstanbul on Thursday, October 03, 2019. View the full event schedule <Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link to='/schedule'>here</Link></Scrollchor>.</p>
             <p>Kadir Has University at <br />Cibali Mah. Hisaraltı Cad. No:17 <br /> Fatih, İstanbul / Turkey, 34083</p>
             <div className='space' />
           </div>
