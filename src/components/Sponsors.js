@@ -5,34 +5,37 @@ class Sponsors extends Component {
   render () {
     return (
       <div className='container sponsors' id='top'>
-        <div className='container'>
+        <div className='container' style={{width: 900}}>
           <div className='center-align'>
             <h2>Sponsors</h2>
             <div className='titleHR' />
           </div>
           <h3 className='center-align'>Gold Sponsors</h3>
           <Row className='valign-wrapper top-marg'>
-            <Col s={12} l={4}>
-              <a href='https://www.thundra.io' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/thundra.svg'} alt={'Thundra'} className='responsive-img' /></a>
+            <Col s={12} l={4} className='center-align'>
+              <a href='https://www.thundra.io' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/thundra.png'} alt={'Thundra'} height={150} width={300} /></a>
             </Col>
-            <Col s={12} l={4}>
-              <a href='https://aws.amazom.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/aws.png'} alt={'AWS'} className='responsive-img' /></a>
+            <Col s={12} l={4} className='center-align'>
+              <a href='https://aws.amazom.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/aws.png'} alt={'AWS'} height={150} width={300} /></a>
             </Col>
+            <Col s={12} l={1}></Col>
             <Col s={12} l={4}>
-              <a href='https://cloud.google.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/google.png'} alt={'Google'} className='responsive-img' /></a>
+              <a href='https://cloud.google.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/google-cloud.png'} alt={'Google'} height={150} width={300} /></a>
             </Col>
+            <Col s={12} l={1}></Col>
           </Row>
           <div className='small-space'></div>
           <h4 className='center-align'>Silver Sponsors</h4>
           <Row className='valign-wrapper top-marg'>
-            <Col s={12} l={2}></Col>
+            <Col s={12} l={4}></Col>
             <Col s={12} l={4}>
-              <a href='https://image4.io' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/image4io.jpeg'} alt={'Image4IO'} className='responsive-img' /></a>
+              <a href='https://image4.io' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/image4io.jpeg'} alt={'Image4IO'} height={100}/></a>
             </Col>
+            <Col s={12} l={4}></Col>
             <Col s={12} l={4}>
-              <a href='https://www.getir.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/getir.png'} alt={'Getir'} className='responsive-img' /></a>
+              <a href='https://www.getir.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/getir.png'} alt={'Getir'} height={100} /></a>
             </Col>
-            <Col s={12} l={2}></Col>
+            <Col s={12} l={4}></Col>
           </Row>
           <div className='small-space'></div>
           <h5 className='center-align'>Bronze Sponsors</h5>
