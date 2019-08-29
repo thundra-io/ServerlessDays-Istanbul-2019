@@ -27,26 +27,30 @@ class Sponsors extends Component {
           <div className='small-space'></div>
           <h4 className='center-align'>Silver Sponsors</h4>
           <Row className='valign-wrapper top-marg'>
-            <Col s={12} l={4}></Col>
+            <Col s={12} l={6}></Col>
             <Col s={12} l={4}>
               <a href='https://image4.io' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/image4io.jpeg'} alt={'Image4IO'} height={100}/></a>
             </Col>
-            <Col s={12} l={4}></Col>
             <Col s={12} l={4}>
               <a href='https://www.getir.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/getir.png'} alt={'Getir'} height={100} /></a>
             </Col>
-            <Col s={12} l={4}></Col>
+            <Col s={12} l={6}></Col>
           </Row>
-          <div className='small-space'></div>
-          <h5 className='center-align'>Bronze Sponsors</h5>
           <div className='small-space'></div>
           <h5 className='center-align'>Community Sponsors</h5>
           <Row className='valign-wrapper top-marg'>
-            <Col s={12} l={4}></Col>
             <Col s={12} l={4}>
-              <a href='https://www.meetup.com/Serverless-Turkey' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/serverlesstr.png'} alt={'Serverless Turkey Meetup'} className='responsive-img' /></a>
-             </Col>
-             <Col s={12} l={4}></Col>
+              <a href='https://www.meetup.com/Serverless-Turkey' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/serverless-turkey.png'} alt={'Serverless Turkey Meetup'} className='responsive-img' /></a>
+            </Col>
+            <Col s={12} l={4}>
+              <a href='https://www.meetup.com/AWS-User-Group-Turkey' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/aws-user-group-turkey.png'} alt={'AWS User Group Turkey'} className='responsive-img' /></a>
+            </Col>
+            <Col s={12} l={6}>
+              <a href='https://devopsturkey.org' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/devops-turkey.png'} alt={'Devops Turkey'} className='responsive-img' /></a>
+            </Col>
+            <Col s={12} l={6}>
+              <a href='devnot.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/devnot.png'} alt={'Devnot'} className='responsive-img' /></a>
+            </Col>
           </Row>
           <div className='divider' />
           <h3 className='center-align'>Sponsor ServerlessDays İstanbul</h3>
