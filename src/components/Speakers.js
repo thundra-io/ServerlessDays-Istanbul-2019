@@ -123,6 +123,36 @@ class Speakers extends Component {
             </Col>
           </Row>
           <div className='divider' />
+          <Row>
+            <Col s={12} l={12} id='arto'>
+              <h4 className='top-marg'>Arto Liukkonen</h4>
+              <h5 className='company'>Nordcloud</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Arto Liukkonen is a Senior Developer at Nordcloud. Mainly JavaScript on both back- and front-end. Also willing to touch WordPress & PHP. Oh and serverless is also cool!</p>
+              <h5><a href='https://twitter.com/artoliukkonen' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter light-blue-text text-darken-1"></i></a><a href='https://www.linkedin.com/in/artoliukkonen/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in light-blue-text text-darken-3"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/arto.png'} alt={'Arto Liukkonen'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
+          <Row>
+            <Col s={12} l={12} id='mohamed'>
+              <h4 className='top-marg'>Mohamed Labouardy</h4>
+              <h5 className='company'>FoxIntelligence</h5>
+            </Col>
+            <Col s={12} l={9}>
+              <p>Mohamed Labouardy is a software engineer/DevOps engineer and AWS Solution Architect. He is also a certified Scrum Master.
+                 He is interested in serverless architecture, containers, distributed systems, Go, chaos engineering, and machine learning. He is a contributor to numerous open source projects such as DialogFlow, Jenkins, Docker, Nexus, and Telegraf. He has authored some open source projects related to DevOps as well.
+                 He currently works at Foxintelligence as a lead DevOps engineer. He is also a technical content writer at several platforms and is a regular speaker at multiple international events and conferences, such as Nexus User Conference and AllDayDevOps.</p>
+              <h5><a href='https://twitter.com/mlabouardy' target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter light-blue-text text-darken-1"></i></a><a href='https://www.linkedin.com/in/mlabouardy/' target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin-in light-blue-text text-darken-3"></i></a></h5>
+            </Col>
+            <Col s={12} l={3}>
+              <img src={'./media/speakers/mohamed.jpeg'} alt={'Mohamed Labouardy'} className='responsive-img circle' />
+            </Col>
+          </Row>
+          <div className='divider' />
         </div>
       </div>
     );

@@ -17,34 +17,82 @@ class Home extends Component {
             </div>
           </ScrollableAnchor>
           <div className='container'>
-            <h2 className='center-align'>Dates</h2>
-              <table class="striped text-medium">
+            <h2 className='center-align'>Schedule</h2>
+            <table class="striped text-medium">
                 <thead>
                   <tr>
-                    <th>Date</th>
-                    <th>Event</th>
+                    <th width="250">Time</th>
+                    <th width="750">Event</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                      <td>20th of June</td>
-                      <td>CFP Opens</td>
+                      <td>08:30 - 09:00</td>
+                      <td>Reception and Breakfast</td>
                   </tr>
                   <tr>
-                      <td>20th of July</td>
-                      <td>Tickets Go on Sale</td>
+                      <td>09:00 - 09:15</td>
+                      <td>Opening Remarks</td>
                   </tr>
                   <tr>
-                      <td>20th of August</td>
-                      <td>CFP Closes</td>
+                      <td>09:15 - 10:00</td>
+                      <td>Danilo Poccia, Diving deep into the event-driven side of Serverless</td>
                   </tr>
                   <tr>
-                      <td>1st of September</td>
-                      <td>Schedule Announced</td>
+                      <td>10:00 - 10:30</td>
+                      <td>Mete Atamel, Serverless Containers with Knative and Cloud Run</td>
                   </tr>
                   <tr>
-                      <td>3rd Of October</td>
-                      <td>The Event Date</td>
+                      <td>10:30 - 10:45</td>
+                      <td>Coffee break</td>
+                  </tr>
+                  <tr>
+                      <td>10:45 - 11:15</td>
+                      <td>Mohamed Labouardy, Lessons Learned while going serverless in production</td>
+                  </tr>
+                  <tr>
+                      <td>11:15 - 11:45</td>
+                      <td>Syed Sarjeel Yusuf, Better IoT with Serverless GraphQL</td>
+                  </tr>
+                  <tr>
+                      <td>11:45 - 12:15</td>
+                      <td>Kas Perch, Breaking out of the Serverless Container with V8</td>
+                  </tr>
+                  <tr>
+                      <td>12:15 - 13:30</td>
+                      <td>Lunch break</td>
+                  </tr>
+                  <tr>
+                      <td>13:30 - 14:00</td>
+                      <td>Daron Yondem, What comes after your first function in serverless?</td>
+                  </tr>
+                  <tr>
+                      <td>14:00 - 14:30</td>
+                      <td>Eric Johnson, Thinking Asynchronously</td>
+                  </tr>
+                  <tr>
+                      <td>14:30 - 14:45</td>
+                      <td>Coffee break</td>
+                  </tr>
+                  <tr>
+                      <td>14:45 - 15:15</td>
+                      <td>Mehmet Taşkıner, Collect and analyze data: The Cheaper Way</td>
+                  </tr>
+                  <tr>
+                      <td>15:15 - 15:45</td>
+                      <td>Arto Liukkonen, Serverless Superpowers for Frontend Developers</td>
+                  </tr>
+                  <tr>
+                      <td>15:45 - 16:00</td>
+                      <td>Coffee Break</td>
+                  </tr>
+                  <tr>
+                      <td>16:00 - 16:45</td>
+                      <td>Slobodan Stojanovic, Modern Art of Serverless Architecture</td>
+                  </tr>
+                  <tr>
+                      <td>16:45 - 17:00</td>
+                      <td>Closing Remarks</td>
                   </tr>
                 </tbody>
               </table>
@@ -131,15 +179,24 @@ class Home extends Component {
                 </Link>
               </Col>
             </Row>
+            <Row>
+              <Col s={4} l={6} className='center-align'>
+                <Link to='/speakers#arto'>
+                  <img src={'./media/speakers/arto.png'} alt={'Arto Liukkonen'} className='responsive-img circle' />
+                  <h5>Arto<br />Liukkonen</h5>
+                  <p>Nordcloud</p>
+                </Link>
+              </Col>
+              <Col s={4} l={6} className='center-align'>
+                <Link to='/speakers#arto'>
+                  <img src={'./media/speakers/mohamed.jpeg'} alt={'Mohamed Labouardy'} className='responsive-img circle' />
+                  <h5>Mohamed<br />Labouardy</h5>
+                  <p>FoxIntelligence</p>
+                </Link>
+              </Col>
+            </Row>
             <div className='center-align'>
               <Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='btn-large btn-red top-marg' to='/speakers'>View Speakers</Link></Scrollchor>
-            </div>
-          </div>
-          <div className='space' />
-          <div className='container'>
-            <h2 className='center-align'>Want to be a speaker?</h2>
-            <div className='center-align'>
-              <a className='btn-large btn-red top-marg' href={'https://www.papercall.io/cfps/2342/submissions/new'} target='_blank' rel='noopener noreferrer'>Submit</a>
             </div>
           </div>
           <div className='space' />
