@@ -13,16 +13,21 @@ class Sponsors extends Component {
           <h3 className='center-align'>Gold Sponsors</h3>
           <Row className='valign-wrapper top-marg'>
             <Col s={12} l={4} className='center-align'>
-              <a href='https://www.thundra.io' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/thundra.png'} alt={'Thundra'} height={150} width={300} /></a>
-            </Col>
-            <Col s={12} l={4} className='center-align'>
               <a href='https://aws.amazom.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/aws.png'} alt={'AWS'} height={150} width={300} /></a>
             </Col>
-            <Col s={12} l={1}></Col>
             <Col s={12} l={4}>
               <a href='https://cloud.google.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/google-cloud.png'} alt={'Google'} height={150} width={300} /></a>
             </Col>
             <Col s={12} l={1}></Col>
+            <Col s={12} l={4}>
+              <a href='https://microsoft.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/microsoft.png'} alt={'Microsoft'} height={150} width={300} /></a>
+            </Col>
+            <Col s={12} l={1}></Col>
+          </Row>
+          <Row className='valign-wrapper top-marg'>
+            <Col s={12} l={12} className='center-align'>
+                <a href='https://www.thundra.io' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/thundra.png'} alt={'Thundra'} height={300} width={300} /></a>
+            </Col>
           </Row>
           <div className='small-space'></div>
           <h4 className='center-align'>Silver Sponsors</h4>
