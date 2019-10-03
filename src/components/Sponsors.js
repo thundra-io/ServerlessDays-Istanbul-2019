@@ -39,6 +39,9 @@ class Sponsors extends Component {
             <Col s={12} l={4}>
               <a href='https://www.getir.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/getir.png'} alt={'Getir'} height={100} /></a>
             </Col>
+            <Col s={12} l={4}>
+              <a href='https://www.cloudflare.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/cloudflare.png'} alt={'Cloudflare'} height={100} /></a>
+            </Col>
             <Col s={12} l={6}></Col>
           </Row>
           <div className='small-space'></div>
