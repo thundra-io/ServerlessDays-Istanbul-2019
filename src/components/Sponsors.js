@@ -32,17 +32,17 @@ class Sponsors extends Component {
           <div className='small-space'></div>
           <h4 className='center-align'>Silver Sponsors</h4>
           <Row className='valign-wrapper top-marg'>
-            <Col s={12} l={6}></Col>
-            <Col s={12} l={4}>
+            <Col s={12} l={3}/>
+            <Col s={12} l={3}>
               <a href='https://image4.io' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/image4io.jpeg'} alt={'Image4IO'} height={100}/></a>
             </Col>
-            <Col s={12} l={4}>
+            <Col s={12} l={3}>
               <a href='https://www.getir.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/getir.png'} alt={'Getir'} height={100} /></a>
             </Col>
-            <Col s={12} l={4}>
+            <Col s={12} l={3}>
               <a href='https://www.cloudflare.com' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/cloudflare.png'} alt={'Cloudflare'} height={100} /></a>
             </Col>
-            <Col s={12} l={6}></Col>
+            <Col s={12} l={3}/>
           </Row>
           <div className='small-space'></div>
           <h5 className='center-align'>Community Sponsors</h5>
