@@ -20,7 +20,7 @@ class Sponsors extends Component {
             </Col>
             <Col s={12} l={1}></Col>
             <Col s={12} l={4}>
-              <a href='https://microsoft.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/microsoft.png'} alt={'Microsoft'} height={150} width={300} /></a>
+              <a href='https://microsoft.com/' target='_blank' rel='noopener noreferrer'><img src={'./media/sponsors/microsoft.png'} alt={'Microsoft'} height={150} width={450} /></a>
             </Col>
             <Col s={12} l={1}></Col>
           </Row>
